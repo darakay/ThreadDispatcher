@@ -35,7 +35,7 @@ public abstract class Task implements Runnable {
         return taskName;
     }
 
-    abstract Result doWork();
+    public abstract Result doWork();
 
     @Override
     public String toString() {

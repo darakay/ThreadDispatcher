@@ -15,7 +15,7 @@ class TaskMonitor extends Task {
     }
 
     @Override
-    protected Result doWork() {
+    public Result doWork() {
         while (!this.stopped){
             if(this.changed){
                 lastCopiedTasks = createCopy();

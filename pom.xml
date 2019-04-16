@@ -10,7 +10,7 @@
 
     <groupId>com.darakay.oop_projects</groupId>
     <artifactId>ThreadDispatcher</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <repositories>
         <repository>
@@ -48,7 +48,6 @@
     </build>
 
     <dependencies>
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

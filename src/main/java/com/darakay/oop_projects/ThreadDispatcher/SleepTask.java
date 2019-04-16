@@ -10,7 +10,7 @@ public class SleepTask extends Task {
     }
 
     @Override
-    Result doWork() {
+    public Result doWork() {
         try {
             Thread.sleep(seconds * 1000);
             return Result.ok("It's ok!");
